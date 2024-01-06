@@ -122,8 +122,14 @@ CALCULATE(
 The Executive Dashboard encapsulates key business metrics, including:
 - **Total Revenue**
 - **Total Orders**
-- **Total Customers**
-- **Revenue per Customer**
+- **Returns Rate**
+- **Profits**
+
+- A line chart  was used to show the revenue trend over time  , bar chart was used to show the distributiion of product based on product categories. an 
+-- A table matrix was developed  to show the top selling product .
+
+![Executive Dashboard](https://github.com/Tymnastic/Adventure-work/blob/main/Executive%20dash.png)
+
 
 #### Map Visualization
 The Map Visualization provides geographical insights and may contain location-based data showcasing sales distribution or customer concentration.

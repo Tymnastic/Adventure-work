@@ -68,9 +68,7 @@ DISTINCTCOUNT(
   -  Total Profit =
 [Total Revenue] - [Total Cost]
 
- #### Total Customers:
-The count of distinct customer keys provides insights into the customer base's size, which is fundamental in understanding market reach and potential growth opportunities.
-```DAX
+
 ### Total Customers
 ```DAX
 Total Customers = 

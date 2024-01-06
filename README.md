@@ -40,6 +40,9 @@ This analysis aims to:
 - Normalized the product category table using DAX's distinct function to extract subcategories.
 - Established a one-to-many relationship between sales data and return data, forming the core of the fact tables.
 
+![Data Model](https://github.com/Tymnastic/Adventure-work/blob/main/data%20modelling.png)
+
+
 #### Exploratory Analysis and Metrics
 - Developed a measure table encompassing explicit measures for filter modification.
 - Created critical measures using DAX for:

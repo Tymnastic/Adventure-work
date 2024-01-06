@@ -68,7 +68,7 @@ DISTINCTCOUNT(
   -  Total Profit =
 [Total Revenue] - [Total Cost]
 
-##### Total Customers:
+ #### Total Customers:
 The count of distinct customer keys provides insights into the customer base's size, which is fundamental in understanding market reach and potential growth opportunities.
 ```DAX
 Total Customers = 
@@ -77,13 +77,13 @@ DISTINCTCOUNT(
 )
 
 
-#### Target Metrics Establishment
+#### Target Metrics Establishment:
 - Derived targets for profit, returns, and revenue using DAX based on previous month performance.
 
-— Revenue Target =
+#### Revenue Target =
 [Previous Month Revenue] * 1.1
 
-Profit Target =
+#### Profit Target =
 [Previous Month Profit] * 1.1
 
 

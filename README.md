@@ -94,6 +94,7 @@ DIVIDE(
 The return rate signifies the proportion of returned items concerning the total quantity sold. It provides insights into product quality, customer satisfaction, and potential operational inefficiencies. The formula used is:
 ```DAX
 Return Rate = 
+Return Rate = 
 DIVIDE(
     [Quantity Returned],
     [Quantity Sold],
@@ -110,12 +111,10 @@ CALCULATE(
     DATESYTD(
         'Calendar Lookup'[Date]
     )
-)
+) 
 ```
 
-Got it! Let's incorporate this information into the documentation to highlight the visualization pages and key metrics included in the Adventure Works Power BI report:
 
----
 
 ### Visualization Pages and Key Metrics
 
@@ -146,4 +145,6 @@ The Customer Details section focuses on customer-centric data, incorporating:
 - **Customer-Centric Metrics:** Empowers users to delve into customer-specific data, focusing on top-selling products and enabling flexible metric selection based on weekly data.
 
 The inclusion of these visualization pages and key metrics enhances the overall analysis by offering varied perspectives on sales, product details, and customer-centric data, fostering informed decision-making and strategic planning.
+You can interact with the visualization on 
+![Alt text](total revenue.png)
 

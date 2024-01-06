@@ -71,34 +71,13 @@ DISTINCTCOUNT(
  #### Total Customers:
 The count of distinct customer keys provides insights into the customer base's size, which is fundamental in understanding market reach and potential growth opportunities.
 ```DAX
-Total Customers = 
-DISTINCTCOUNT(
-    'Sales Data'[CustomerKey]
-)
-
-----
-
-#### Target Metrics Establishment:
-- Derived targets for profit, returns, and revenue using DAX based on previous month performance.
-
-#### Revenue Target =
-[Previous Month Revenue] * 1.1
-
-#### Profit Target =
-[Previous Month Profit] * 1.1
-
-
-#### Additional Calculated Metrics and Their Significance
-
-##### Average Revenue per Customer:
-This metric measures the average revenue generated per customer, reflecting the effectiveness of revenue generation strategies tailored toward individual customers. It's calculated as follows:
+### Total Customers
 ```DAX
-Average Revenue per Customer = 
-DIVIDE(
-    [Total Revenue], 
-    [Total Customers]
-)
-```
+Total Customers = 
+    DISTINCTCOUNT(
+        'Sales Data'[CustomerKey]
+    )
+
 
 ##### Return Rate:
 The return rate signifies the proportion of returned items concerning the total quantity sold. It provides insights into product quality, customer satisfaction, and potential operational inefficiencies. The formula used is:

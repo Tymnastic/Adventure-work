@@ -76,6 +76,7 @@ DISTINCTCOUNT(
     'Sales Data'[CustomerKey]
 )
 
+----
 
 #### Target Metrics Establishment:
 - Derived targets for profit, returns, and revenue using DAX based on previous month performance.

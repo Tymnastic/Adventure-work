@@ -49,15 +49,21 @@ This analysis aims to:
   - Total Revenue =
 SUMX(
     'Sales Data',
-    'Sales Data'[OrderQuantity] * RELATED('Product Lookup'[ProductPrice])
+    'Sales Data'[OrderQuantity]
+    *
+    RELATED(
+        'Product Lookup'[ProductPrice]
+    )
 )
 
   - Total Returns =
-COUNT('Returns Data'[ReturnQuantity])
-
+COUNT(
+    'Returns Data'[ReturnQuantity]
+)
   - Total Orders =
-DISTINCTCOUNT('Sales Data'[OrderNumber])
-
+DISTINCTCOUNT(
+    'Sales Data'[OrderNumber]
+)
 
   -  Total Profit =
 [Total Revenue] - [Total Cost]

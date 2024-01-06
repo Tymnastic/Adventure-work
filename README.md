@@ -131,12 +131,13 @@ The Map Visualization provides geographical insights and may contain location-ba
 #### Product Details
 This section offers a detailed breakdown of product-related metrics, featuring:
 - **Year-to-Date (YTD) Weekly Revenue Line Chart:** Depicts revenue trends on a weekly basis and includes a trend line for forecasting future revenue.
-- **Product Categories Order Distribution Var Chart:** Visualizes order distribution across various product categories.
+- **Product Categories Order Distribution Bar Chart:** Visualizes order distribution across various product categories.
+-- **Selection metrics** containing Revenue, profits, total Orders, total returns and return rate via weekly, monthly or yearly .so user can make selection based on metric preference to view the product with time
 
 #### Customer Details
 The Customer Details section focuses on customer-centric data, incorporating:
-- **Top Selling Table:** Highlights top-selling products based on specific criteria.
-- **Selection Metric for Revenue, Total Profit, and Sales via Start of Week:** Enables user selection to view revenue, total profit, and sales metrics based on weekly data points.
+- **Top Purchasing Customers Table:** Highlights top-selling products based on specific criteria.
+- **Selection Metric for Total Customers, and Average Revenue per Customer via Start of Week:** Enables user selection to view Average revenue, total Customer based on weekly data points.
 ![Customer Detail Page](https://github.com/Tymnastic/Adventure-work/blob/main/Customer%20details.png)
 
 

@@ -137,6 +137,8 @@ This section offers a detailed breakdown of product-related metrics, featuring:
 The Customer Details section focuses on customer-centric data, incorporating:
 - **Top Selling Table:** Highlights top-selling products based on specific criteria.
 - **Selection Metric for Revenue, Total Profit, and Sales via Start of Week:** Enables user selection to view revenue, total profit, and sales metrics based on weekly data points.
+![Customer Detail Page](https://github.com/Tymnastic/Adventure-work/blob/main/Customer%20details.png)
+
 
 #### Rationale for Visualization and Metrics Selection
 - **Executive Dashboard:** Provides an at-a-glance overview of critical business metrics, aiding in quick decision-making.
